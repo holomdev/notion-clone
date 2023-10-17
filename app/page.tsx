@@ -1,7 +1,9 @@
-import Image from 'next/image'
+import { Button } from '@/components/ui/button'
 
 export default function Home() {
   return (
-    <p className='text-red-500 font-bold'>Hello notion clone</p>
+    <Button className="bg-emerald-500 text-white">
+      Delete
+    </Button>
   )
 }
